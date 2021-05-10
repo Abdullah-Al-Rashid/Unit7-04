@@ -11,7 +11,8 @@ function findOut () {
   age = parseInt(age)
   day = document.getElementById('day').value
   // Program determines if user is eligable for student pricing
-  if ((day === 'Tuesday' || day === 'Thursday') || (age > 12 && age < 21))  {document.getElementById('text').innerHTML = 'You\'re eligible for student pricing!'
+  if ((day === 'Tuesday' || day === 'Thursday') || (age > 12 && age < 21)) {
+    document.getElementById('text').innerHTML = 'You\'re eligible for student pricing!'
   } else {
     document.getElementById('text').innerHTML = 'You must pay regular price'
   }
